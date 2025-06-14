@@ -1,0 +1,23 @@
+# ==============================================================================
+# N o d e
+# ==============================================================================
+node:
+  port: 8000
+
+# ==============================================================================
+# S U B G R A P H
+# ==============================================================================
+subgraph:
+  answer: http://localhost:3004/graphql
+  authentication: http://localhost:3005/graphql
+  notification: http://localhost:3006/graphql
+  questionnaire: http://localhost:3003/graphql
+  user: http://localhost:3001/graphql
+  vibeProfile: http://localhost:3002/graphql
+
+# ==============================================================================
+# K A F K A
+# ==============================================================================
+kafka:
+  host: localhost
+  groupId: omnixys-gateway-service
