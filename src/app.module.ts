@@ -42,7 +42,7 @@ const handleAuth = ({ req }: { req: Request }) => {
                         { name: 'notification', url: subgraph.notification },
                         { name: 'questionnaire', url: subgraph.questionnaire },
                         { name: 'user', url: subgraph.user },
-                        { name: 'vibeProfile', url: subgraph.vibeProfile },
+                        // { name: 'vibeProfile', url: subgraph.vibeProfile },
                     ],
                 }),
             },
